@@ -1,2 +1,2 @@
 # calculator-
-basic calculator ( only arithmetic operaction)
+basic calculator ( only arithmetic operation)
