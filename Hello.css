@@ -1,0 +1,72 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: cadetblue;
+}
+
+input {
+    width : 400px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: wheat;
+    text-align: end;
+    font-size: 20px;
+}
+.cal{
+    border: 10px solid wheat;
+    border-radius: 15px;
+    box-shadow: 10px,10px,10px black;
+    background-color: wheat;
+    padding: 10px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap : 10px;
+    padding: 10px;
+}
+
+.btn {
+    width : 80px;
+    height : 80px;
+    border-radius: 5px;
+    background-color: green;
+    align-items: center;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn:hover{
+    box-shadow: 1px 1px black;
+    background-color: darkgreen;
+}
+.operator {
+    background-color: yellow;
+    width : 80px;
+    height : 80px;
+    border-radius: 5px;
+    align-items: center;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.operator:hover {
+    box-shadow: 1px 1px black;
+    background-color: rgb(195, 195, 4);
+}
+
+.clear, .equal {
+    border-radius: 5px;
+}
+
+
+.btn:hover {
+    cursor: pointer;
+}
